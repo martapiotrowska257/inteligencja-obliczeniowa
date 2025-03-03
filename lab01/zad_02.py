@@ -24,21 +24,34 @@ def calc_distance(alfa, v, g, h):
 
 def plot_trajectory(alfa, v, g, h, target):
     alfa = math.radians(alfa)
-    cos_alfa = math.cos(alfa)
     sin_alfa = math.sin(alfa)
+    cos_alfa = math.cos(alfa)
 
     d = calc_distance(alfa, v, g, h)
 
-    # wartości x od 0 do d
-    x_values = np.linspace(0, d, num=100)
+    # wartości x od 0 do targetu
+    x_values = np.linspace(0, target, num=1000)
 
     # wartości y według wzoru trajektorii
     y_values = (-g / (2 * v ** 2 * cos_alfa ** 2)) * x_values ** 2 + (sin_alfa / cos_alfa) * x_values + h
+    print("Min y:", min(y_values))  # Jeśli min > 0, to coś jest źle
 
-    # zatrzymanie trajektorii dokładnie w miejscu uderzenia w ziemię
-    valid_indices = y_values >= 0
-    x_values = x_values[valid_indices]
-    y_values = y_values[valid_indices]
+    # znalezienie dokładnego miejsca, gdzie y przecina oś OX (ostatni punkt lotu)
+    if y_values[-1] > 0:    # wykres kończy się nad osią OX
+        for i in range(len(y_values) - 1):
+            if y_values[i] > 0 and y_values[i+1] < 0:
+                x0, y0 = x_values[i], y_values[i]   # punkt poniżej osi OX
+                x1, y1 = x_values[i + 1], y_values[i + 1]   # punkt powyżej osi OX
+
+                # interpolacja liniowa, aby znaleźć dokładny x, dla którego y = 0
+                x_land = x0 - (y0 * (x1 - x0) / (y1 - y0))
+
+                print(f"Interpolacja: x0={x0}, y0={y0}, x1={x1}, y1={y1}, x_land={x_land}")  # Debug
+
+                # dodajemy nowy punkt do listy, aby wykres kończył się na ziemi
+                x_values = np.append(x_values[:i + 1], x_land)
+                y_values = np.append(y_values[:i + 1], 0)
+                break
 
     plt.figure(figsize=(10, 5))
     plt.plot(x_values, y_values, label="Trajektoria lotu pocisku")
@@ -54,7 +67,7 @@ def plot_trajectory(alfa, v, g, h, target):
 
 
 def hit_the_target(v, g, h):
-    target = random.randint(50, 340)
+    target = 260
     print("\nCel do trafienia: ", target)
 
     counter = 0
