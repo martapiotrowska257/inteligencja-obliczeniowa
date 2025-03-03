@@ -11,9 +11,11 @@ todays_date = datetime.datetime.now()
 
 t = (todays_date - birthday).days  # ilość dni życia od narodzin
 
+
 # obliczanie biorytmów
 def calculate_biorhythm(days_lived, cycle_length):
     return math.sin(((2 * math.pi) / cycle_length) * days_lived)
+
 
 physical = calculate_biorhythm(t, 23)  # fizyczna fala
 emotional = calculate_biorhythm(t, 28)  # emocjonalna fala

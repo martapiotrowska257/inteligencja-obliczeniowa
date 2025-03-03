@@ -16,10 +16,10 @@ def calculate_biorhythm(days_lived, cycle_length):
 
 def display_biorhythms(name, days_lived, physical, emotional, intellectual):
     print(f'Witaj {name}! Dzisiaj jest {days_lived} dzień Twojego życia!')
-    print(f'Wyniki Twoich biorytmów prezentują się następująco:')
-    print(f'  Fizyczna fala: {physical:.4f}')
-    print(f'  Emocjonalna fala: {emotional:.4f}')
-    print(f'  Intelektualna fala: {intellectual:.4f}')
+    print(f'Wyniki Twoich biorytmów prezentują się następująco: ')
+    print(f'  Fizyczna fala: {physical: .4f}')
+    print(f'  Emocjonalna fala: {emotional: .4f}')
+    print(f'  Intelektualna fala: {intellectual: .4f}')
 
 
 def check_next_day_biorhythms(t, physical, emotional, intellectual):
