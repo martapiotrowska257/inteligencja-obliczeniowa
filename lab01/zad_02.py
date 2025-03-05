@@ -54,6 +54,7 @@ def plot_trajectory(alfa, v, g, h, target):
     plt.legend()
     plt.grid()
     plt.show(block=True)
+    plt.savefig('trajectory.png')
 
 
 def hit_the_target(v, g, h):
