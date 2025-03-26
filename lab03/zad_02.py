@@ -40,8 +40,8 @@ drzewo_text()
 prediction = model.predict(test_inputs)
 accuracy = model.score(test_inputs, test_classes)
 
-print(prediction)
-print(accuracy)  # przykładowe wyniki: 0.9555555555555556, 0.9333333333333333
+print(f"Predykcja: {prediction}")
+print(f"Dokładność: {accuracy}")  # przykładowe wyniki: 0.9555555555555556, 0.9333333333333333
 
 # podpunkt f)
 cm = confusion_matrix(test_classes, prediction)
