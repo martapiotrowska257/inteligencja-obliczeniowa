@@ -9,7 +9,8 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 df = pd.read_csv("iris1.csv")
-# a
+
+# podpunkt a)
 (train_set, test_set) = train_test_split(df.values, train_size=0.7, random_state=291714)
 
 train_inputs = train_set[:, 0:4]
@@ -20,35 +21,30 @@ test_classes = test_set[:, 4]
 # print(train_set)
 # print(test_set)
 
-# b
+# podpunkt b)
 model = DecisionTreeClassifier()
-# c
+
+# podpunkt c)
 model.fit(train_inputs, train_classes)
 
 
-# d
+# podpunkt d)
 def drzewo_text():
     tree_text = export_text(model, feature_names=list(df.columns[:-1]))  # pomijamy kolumnę z etykietami
     print(tree_text)
 
 
-# drzewo_text()
+drzewo_text()
 
-# e
-y_pred = model.predict(test_inputs)
+# podpunkt e)
+prediction = model.predict(test_inputs)
 accuracy = model.score(test_inputs, test_classes)
 
+print(prediction)
+print(accuracy)  # przykładowe wyniki: 0.9555555555555556, 0.9333333333333333
 
-def pred_acc():
-    print(y_pred)
-    print(accuracy)  # przykładowe wyniki: 0.9555555555555556, 0.9333333333333333
-
-
-# pred_acc()
-
-# f
-cm = confusion_matrix(test_classes, y_pred)
-
+# podpunkt f)
+cm = confusion_matrix(test_classes, prediction)
 print(cm)
 
 
@@ -59,6 +55,7 @@ def wykres():
     plt.ylabel("Rzeczywiste")
     plt.title("Macierz błędów")
     plt.show()
+
 
 wykres()
 
