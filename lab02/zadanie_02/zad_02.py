@@ -35,7 +35,7 @@ print(count_pca(1))  # 0.924618723201729, czyli poniżej 95% wariancji => ZA MAL
 print("==============================")
 
 
-# z tego wynika ze aby zachowac 95% wariancji potrzebujemy przynajmniej 2 komponentow => potwierdzamy to wzorem
+# z tego wynika ze aby zachowac 95% wariancji potrzebujemy 2 pierwszych komponentow => potwierdzamy to wzorem
 
 
 def count_loss():
