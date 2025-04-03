@@ -1,1 +1,1 @@
-# inteligencja-obliczeniowa
+# Repozytorium z przedmiotu inteligencja obliczeniowa
