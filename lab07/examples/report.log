@@ -1,0 +1,114 @@
+2025-05-07 12:22:06,184 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-07 12:22:06,214 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.1122061858341458e-11, best pos: [-1.96971100e-06  2.69115225e-06]
+2025-05-07 12:23:48,709 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:23:48,720 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 6.5665959178645786e-15, best pos: [7.78503773e-09 8.06597118e-08]
+2025-05-07 12:23:50,408 - matplotlib.animation - WARNING - MovieWriter imagemagick unavailable; using Pillow instead.
+2025-05-07 12:23:50,408 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 12:34:45,005 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-07 12:34:45,172 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 7.570041729585354e-11, best pos: [-8.24286677e-06  2.78488145e-06]
+2025-05-07 12:34:59,508 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:34:59,520 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.687809042425635e-07, best pos: [-0.00025099 -0.00045364]
+2025-05-07 12:35:01,651 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 12:35:01,651 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 12:39:30,249 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:39:30,259 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.2695468744432171e-15, best pos: [-1.93099588e-08 -2.99444880e-08]
+2025-05-07 12:39:31,709 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 12:39:31,710 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 12:45:26,656 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:45:26,666 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.02762521237776211, best pos: [0.15660959 0.05566551]
+2025-05-07 12:45:28,159 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 12:46:19,234 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:46:19,243 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.13144937079671448, best pos: [0.28020731 0.23007224]
+2025-05-07 12:46:20,702 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 12:46:59,579 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:46:59,589 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.00010608630444781575, best pos: [-0.00848793  0.0058345 ]
+2025-05-07 12:47:00,997 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 12:48:53,123 - pyswarms.single.global_best - INFO - Optimize for 30 iters with {'c1': 1.5, 'c2': 1.5, 'w': 0.5}
+2025-05-07 12:48:53,132 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 9.693820000104636e-09, best pos: [8.79843152e-05 4.41880106e-05]
+2025-05-07 12:48:54,621 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 12:57:31,914 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 12:57:31,928 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.6900385187315544e-14, best pos: [-1.29750762e-07  1.00325096e-07]
+2025-05-07 12:57:33,621 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 12:57:33,622 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 13:04:41,664 - matplotlib.font_manager - INFO - generated new fontManager
+2025-05-07 13:04:41,805 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:04:41,816 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.00033987942298736125, best pos: [-0.0174557   0.00593109]
+2025-05-07 13:04:43,402 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:04:43,403 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 13:06:06,545 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:06:06,555 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.0005297272308040443, best pos: [-0.02128842  0.00874817]
+2025-05-07 13:06:08,002 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 13:07:25,530 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 2.0, 'c2': 1.0, 'w': 0.5}
+2025-05-07 13:07:25,541 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.9903087983249422e-12, best pos: [-1.24893950e-06  6.56093692e-07]
+2025-05-07 13:07:26,964 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 13:08:03,699 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:08:03,710 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.0035967834045588787, best pos: [0.05482722 0.02430553]
+2025-05-07 13:08:05,142 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 13:09:21,947 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:09:21,958 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 9.67034984862248e-16, best pos: [-1.81034639e-08  2.52843742e-08]
+2025-05-07 13:09:23,563 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-05-07 13:10:52,177 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:10:52,187 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.010530472109095263, best pos: [0.08494905 0.05756849]
+2025-05-07 13:10:53,612 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:10:53,612 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 13:14:27,443 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:14:27,454 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.024201173625064874, best pos: [0.12710959 0.08969017]
+2025-05-07 13:14:28,904 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:14:28,905 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plot0.gif
+2025-05-07 13:19:27,639 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:19:27,656 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.018793934998729805, best pos: [0.13143485 0.03897199]
+2025-05-07 13:19:29,134 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:19:35,536 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:19:35,549 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 6.95836358231072e-09, best pos: [ 8.01139405e-05 -2.32404843e-05]
+2025-05-07 13:19:36,964 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:19:36,965 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot0.gif
+2025-05-07 13:21:22,733 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 2.0, 'c2': 0.1, 'w': 0.5}
+2025-05-07 13:21:22,744 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 3.221708879549959e-06, best pos: [-0.0004001  -0.00174975]
+2025-05-07 13:21:24,204 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:21:24,204 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot1.gif
+2025-05-07 13:30:01,502 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.1, 'c2': 2.0, 'w': 0.5}
+2025-05-07 13:30:01,513 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 3.944343520203957e-11, best pos: [3.26157675e-06 5.36708043e-06]
+2025-05-07 13:30:03,110 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:30:03,111 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot2.gif
+2025-05-07 13:32:00,859 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:32:00,868 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.012221713691581518, best pos: [0.06075563 0.09236053]
+2025-05-07 13:32:02,429 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:32:02,429 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot2.gif
+2025-05-07 13:32:56,276 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 2.0}
+2025-05-07 13:32:56,289 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.227154319919317, best pos: [0.35058049 0.32287403]
+2025-05-07 13:32:57,941 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:32:57,942 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot3.gif
+2025-05-07 13:33:49,965 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.1}
+2025-05-07 13:33:49,975 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 5.2509538937419454e-05, best pos: [0.00718718 0.00092409]
+2025-05-07 13:33:51,431 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:33:51,432 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot3.gif
+2025-05-07 13:34:44,605 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 2.0}
+2025-05-07 13:34:44,615 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.3462265739145548, best pos: [0.43094053 0.40064552]
+2025-05-07 13:34:46,234 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:34:46,234 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot3.gif
+2025-05-07 13:35:13,410 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.1}
+2025-05-07 13:35:13,429 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.169182666088224, best pos: [0.2764485  0.30456345]
+2025-05-07 13:35:14,933 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:35:14,934 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot4.gif
+2025-05-07 13:42:07,835 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-07 13:42:07,848 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.00029688912499533, best pos: [0.01072441 0.01348615]
+2025-05-07 13:42:09,462 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:42:09,463 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot4.gif
+2025-05-07 13:42:31,349 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-07 13:42:31,358 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 3.6670683248407314e-05, best pos: [0.00545244 0.0026347 ]
+2025-05-07 13:42:32,858 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:42:32,859 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot0.gif
+2025-05-07 13:43:23,561 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.1}
+2025-05-07 13:43:23,570 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 0.14175103569108083, best pos: [0.25160907 0.2800784 ]
+2025-05-07 13:43:25,021 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:43:25,022 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot0.gif
+2025-05-07 13:43:59,070 - pyswarms.single.global_best - INFO - Optimize for 50 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.5}
+2025-05-07 13:43:59,083 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 8.167406798302395e-15, best pos: [-6.04884497e-08 -6.71457687e-08]
+2025-05-07 13:44:00,684 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.ImageMagickWriter'>
+2025-05-07 13:44:00,685 - matplotlib.animation - INFO - MovieWriter._run: running command: 'C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\magick.exe' -size 1000x800 -depth 8 -delay 10.0 -loop 0 rgba:- -layers OptimizePlus plots/plot0.gif
+2025-05-14 11:31:12,463 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-14 11:31:12,553 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.7174554464973877e-11, best pos: [3.04762503e-06 2.80829773e-06]
+2025-05-14 11:32:42,607 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-14 11:32:42,639 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.985694728450303e-11, best pos: [-4.09101912e-06  3.62222443e-06]
+2025-05-14 11:33:08,610 - pyswarms.single.global_best - INFO - Optimize for 200 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2025-05-14 11:33:08,650 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.4158083720996024e-11, best pos: [-4.91865865e-07 -4.89041427e-06]
