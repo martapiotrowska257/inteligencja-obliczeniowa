@@ -91,14 +91,14 @@ plt.savefig(filename, dpi=300, bbox_inches="tight")
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Ilość 'mrówek' (ant_count):
-# - 50 mrówek - 336.8903364868396, 5.82s -- wydajne rozwiązanie, dobrze rozwiązane (mała liczba mrówek w koloni)
+# - 50 mrówek - 336.8903364868396, 5.82s -- wydajne rozwiązanie, dobrze rozwiązane (mała liczba mrówek w kolonii)
 # - 300 mrówek - 385.7593136405796, 23.13s -- pierwotne rozwiązanie, najgorsze rozwiązanie
 # - 500 mrówek - 330.8197687931371, 49.34s -- długie wykonanie, rozwiązanie gorsze 50 mrówek
 
 # Wyniki pokazują, że im więcej mrówek w kolonii, tym dłuższy jest czas wykonania programu.
 # Wydaje się, że wieksza liczba mrówek zaczyna się gubić w poszukiwaniach, co prowadzi do gorszych wyników.
 # Nie jest to do końca prawda. Po kilku próbach wywołania programu można zauważyć,
-# że trzecie wykonanie z 500 mrówkami ma prawie idetyczny wynik jak pierwsze wykonanie z 50 mrówkami.
+# że trzecie wykonanie z 500 mrówkami ma prawie identyczny wynik jak pierwsze wykonanie z 50 mrówkami.
 # Być może jest to kwestia losowości?
 
 # ----------------------------------------------------------------------------------------------------------------------
